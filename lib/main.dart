@@ -13,9 +13,14 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         home: Scaffold(
             appBar: AppBar(
-              title: Text('Salah'),
+              title: Text(
+                'Salah',
+                style: TextStyle(
+                  color: Colors.black,
+                ),
+              ),
               backgroundColor: Colors.amber,
             ),
-            body:Image.asset('image/salah.jpg')));
+            body: Image.asset('image/salah.jpg')));
   }
 }
